@@ -1,0 +1,118 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+* {
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+body {
+    font-family: raleway, arial, sans-serif;
+    font-weight: 300;
+    padding: 0px 50px 0px 50px;
+}
+
+/* HEADER */
+#nav {
+    margin-top: 50px;
+}
+nav {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#headerP2 {
+    margin-top: 50px;
+}
+#headerP2 h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#headerP2 p {
+    font-size: 15px;
+}
+.button-L {
+    border: 1px solid #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    padding: 17px 17px 15px 17px;
+    margin-right: -5px;
+    background-color: #F2F2F2;
+}
+.button-L a {
+    color: black;
+}
+.button-R {
+    background-color: #0065FC;
+    padding: 10px 17px 10px 17px;
+    color: white;
+    margin-left: -5px;
+    border: 1px solid #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+    height: 50px;
+}
+.champ-R {
+    padding: 0px 0px 0px 10px;
+    border: 1px solid #F2F2F2;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+}
+#formulaireville {
+    margin-top: 17px;
+}
+#formulaireville input {
+    margin-top: 10px;
+}
+.champ-R::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+.champ-R:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+.champ-R::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+.champ-R:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    black;
+}
+.filtres {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+}
+.filtres p {
+    font-weight: 600;
+    padding-left: 0px;
+    padding-top: 15px;
+    align-items: center;
+    float: left;
+}
+.filtres a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DEEBFF;
+    border-radius: 30px;
+    padding: 0px 10px 0px 0px;
+}
+.filtres a i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #DEEBFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
