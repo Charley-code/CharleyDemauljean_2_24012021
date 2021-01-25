@@ -39,54 +39,63 @@ nav a {
 #headerP2 p {
     font-size: 15px;
 }
+#conteneur {
+    width: 420px;
+    height: 51px;
+    display: flex;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
 .button-L {
     border: 1px solid #F2F2F2;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
-    padding: 17px 17px 15px 17px;
-    margin-right: -5px;
     width: 52px;
     height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.button-L a {
+.button-L a i {
     color: black;
 }
 .button-R {
     background-color: #0065FC;
-    padding: 10px 17px 10px 17px;
-    color: white;
-    margin-left: -5px;
     border: 1px solid #0065FC;
     border-radius: 0px 10px 10px 0px;
+    color: white;
     font-size: 15px;
-    height: 50px;
+    height: 53px;
+    width: 134px;
 }
 .champ-R {
-    padding: 0px 0px 0px 10px;
     border: 1px solid #F2F2F2;
     font-size: 15px;
     font-weight: 600;
-    height: 50px;
-}
-#formulaireville {
-    margin-top: 17px;
+    height: 49px;
+    width: 234px;
 }
 #formulaireville input {
     margin-top: 10px;
 }
 .champ-R::-webkit-input-placeholder { /* WebKit browsers */
     color:    black;
+    padding-left: 17px;
 }
 .champ-R:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    black;
    opacity:  1;
+   padding-left: 17px;
 }
 .champ-R::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    black;
    opacity:  1;
+   padding-left: 17px;
 }
 .champ-R:-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    black;
+   padding-left: 17px;
 }
 .filtres {
     height: 50px;
@@ -110,6 +119,38 @@ nav a {
     padding: 0px 20px 0px 0px;
     font-weight: 600;
 }
+#transition1 {
+    transition: 1s;
+    transition: transform .5s;
+}
+#transition1:hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: #DEEBFF;
+}
+#transition2{
+    transition: transform .5s;
+    transition: .5s;
+}
+#transition2:hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: #DEEBFF;
+}
+#transition3{
+    transition: transform .5s;
+    transition: .5s;
+}
+#transition3:hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: #DEEBFF;
+}
+#transition4{
+    transition: transform .5s;
+    transition: .5s;
+}
+#transition4:hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: #DEEBFF;
+}
 .filtres a i {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -121,6 +162,9 @@ nav a {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+#deplacer-filtre {
+    margin-top: 100px;
 }
 #info {
     margin-top: 35px;
