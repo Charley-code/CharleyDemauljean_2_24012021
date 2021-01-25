@@ -42,9 +42,11 @@ nav a {
 .button-L {
     border: 1px solid #F2F2F2;
     border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
     padding: 17px 17px 15px 17px;
     margin-right: -5px;
-    background-color: #F2F2F2;
+    width: 52px;
+    height: 51px;
 }
 .button-L a {
     color: black;
@@ -140,4 +142,70 @@ nav a {
 }
 #info p {
     padding-top: 2px;
+}
+
+/* SECTION PART 1 */
+
+#heberge-M {
+    width: 880px;
+    height: 625px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    margin-top: 30px;
+    float: left;
+}
+#heberge-M h2 {
+    margin: 45px 0 23px 45px;
+}
+#heberge-M > a {
+    margin-top: 15px;
+   margin-left: 45px;
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+}
+#main-hotel {
+    width: 820px;
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#main-hotel a {
+    height: 200px;
+    width: 246px;
+    background-color: white;
+    border: 1px solid White;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+#main-hotel a img {
+    height: 114px;
+    width: 236px;
+    object-fit: cover;
+    padding-top: 5px;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+}
+.under-img {
+    height: 80px;
+    width: 236px;
+}
+.under-img h3 {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.under-img p {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.stars {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #0065FC;
 }
