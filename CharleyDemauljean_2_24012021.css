@@ -10,6 +10,7 @@ body {
     font-family: raleway, arial, sans-serif;
     font-weight: 300;
     padding: 0px 50px 0px 50px;
+    width: 1340px;
 }
 
 /* HEADER */
@@ -189,15 +190,22 @@ nav a {
 }
 
 /* SECTION PART 1 */
-
+#big1 {
+    width: 1340px;
+    height: 625px;
+    padding-top: 0px;
+    margin: 350px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
 #heberge-M {
     width: 880px;
     height: 625px;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    margin-top: 30px;
     float: left;
+    margin-left: -15px;
 }
 #heberge-M h2 {
     margin: 45px 0 23px 45px;
@@ -225,6 +233,7 @@ nav a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
 }
 #main-hotel a img {
     height: 114px;
@@ -253,3 +262,67 @@ nav a {
     margin-left: 10px;
     color: #0065FC;
 }
+.euro {
+    font-weight: 600;
+}
+.grey {
+    color: #F2F2F2;
+}
+
+/* SECTION PART 1 SIDE */
+
+aside {
+    width: 420px;
+    height: 625px;
+    background-color: #F2F2F2;
+    border: 1px solid #f2f2f2;
+    border-radius: 30px;
+}
+#title_side {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin-top: 45px;
+}
+#elements-side {
+    width: 343px;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#elements-side a {
+    width: 343px;
+    height: 144px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+}
+#elements-side a div img {
+    width: 127px;
+    height: 134px;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+    padding: 3px 0px 0px 5px;
+    margin-right: 20px;
+}
+.under-side-img {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.under-side-img h3 {
+    padding-bottom: 5px;
+}
+.under-side-img p{
+    margin-left: 0px;
+}
+.under-side-img div {
+    padding-top: 30px;
+    margin-left: 0px;
+}
+
+/* SECTION PART 2 */
