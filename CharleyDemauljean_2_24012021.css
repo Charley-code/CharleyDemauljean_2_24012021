@@ -333,7 +333,11 @@ aside {
     background-color: cadetblue;
 }
 #separate {
+    height: 614px;
+    width: 1340px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #left a img {
     width: 302px;
@@ -364,10 +368,22 @@ aside {
 #left {
     width: 647px;
     height: 446px;
+    background-color: aquamarine;
     display: flex;
+}
+#left-R {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #right {
     height: 446px;
     width: 647px;
+    background-color: brown;
     display: flex;
+}
+#right-R {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
