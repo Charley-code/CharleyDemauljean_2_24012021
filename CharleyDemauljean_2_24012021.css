@@ -326,3 +326,48 @@ aside {
 }
 
 /* SECTION PART 2 */
+
+#big2 {
+    height: 614px;
+    width: 1340px;
+    background-color: cadetblue;
+}
+#separate {
+    display: flex;
+}
+#left a img {
+    width: 302px;
+    object-fit: cover;
+}
+#child1 {
+    height: 390px;
+}
+#child2 {
+    height: 181px;
+}
+#child3 {
+    height: 109px;
+}
+#child4 {
+    height: 390px;
+}
+#child5 {
+    height: 140px;
+}
+#child6 {
+    height: 153px;
+}
+#right a img {
+    width: 302px;
+    object-fit: cover;
+}
+#left {
+    width: 647px;
+    height: 446px;
+    display: flex;
+}
+#right {
+    height: 446px;
+    width: 647px;
+    display: flex;
+}
