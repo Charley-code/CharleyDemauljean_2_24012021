@@ -357,6 +357,7 @@ aside {
 #separate a h3 {
     height: 30px;
     padding-top: 15px;
+    padding-left: 20px;
 }
 #child1 img {
     height: 390px;
