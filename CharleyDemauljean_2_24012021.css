@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
 
 * {
-    max-width: 1440px;
     margin: 0 auto 0 auto;
 }
 body {
@@ -26,6 +25,13 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
+}
+nav a:first-child {
+    color: #0065FC;
+}
+nav a:nth-child(3) {
+    color: #0065FC;
+    font-weight: 600;
 }
 #headerP2 {
     margin-top: 50px;
@@ -426,3 +432,23 @@ aside {
 }
 
 /* FOOTER */
+
+footer {
+    margin-top: 60px;
+    height: 218px;
+    width: 100% !important;
+    background-color: #F2F2F2;
+}
+#footer {
+    width: 1137px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+#footer div h4 {
+    margin-top: 49px;
+}
+#footer div p {
+    margin-top: 19px;
+}
