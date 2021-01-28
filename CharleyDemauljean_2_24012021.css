@@ -8,25 +8,41 @@
 body {
     font-family: raleway, arial, sans-serif;
     font-weight: 300;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 20px 0px 30px;
     width: 1340px;
+}
+body h2 {
+    font-size: 1.5em;
+}
+body h3 {
+    font-size: 1.2em;
+}
+body h4 {
+    font-size: 1em;
 }
 
 /* HEADER */
 #nav {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 nav {
-    float: right;
     display: flex;
     justify-content: space-between;
     width: 480px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
 }
 nav a {
     text-decoration: none;
     color: black;
+    margin-top: 0px;
+    padding-top: 30px;
+    transition: 0.25s ease;
 }
-nav a:first-child {
+nav a:hover {
+    border-top: 2px solid #0065FC;
     color: #0065FC;
 }
 nav a:nth-child(3) {
@@ -36,10 +52,11 @@ nav a:nth-child(3) {
 #headerP2 {
     margin-top: 50px;
     width: 945px;
-    float: left;
+    margin-left: 0px;
+    margin-bottom: 30px;
 }
 #headerP2 h1 {
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -50,9 +67,9 @@ nav a:nth-child(3) {
     width: 420px;
     height: 51px;
     display: flex;
-    float: left;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 17px;
+    margin-left: 0px;
 }
 .button-L {
     border: 1px solid #F2F2F2;
@@ -171,7 +188,7 @@ nav a:nth-child(3) {
     margin-right: 20px;
 }
 #deplacer-filtre {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 #info {
     margin-top: 35px;
@@ -200,7 +217,6 @@ nav a:nth-child(3) {
     width: 1340px;
     height: 625px;
     padding-top: 0px;
-    margin: 350px 20px 0px 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -210,7 +226,6 @@ nav a:nth-child(3) {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    float: left;
     margin-left: -15px;
 }
 #heberge-M h2 {
@@ -239,7 +254,7 @@ nav a:nth-child(3) {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #main-hotel a img {
     height: 114px;
@@ -306,7 +321,7 @@ aside {
     display: flex;
     align-items: center;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #elements-side a div img {
     width: 127px;
@@ -343,9 +358,7 @@ aside {
     width: 1385px;
     display: flex;
     justify-content: space-between;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-top: 20px;
+    margin: 20px -20px 30px -20px;
 }
 #separate a {
     text-decoration: none;
@@ -397,7 +410,7 @@ aside {
     height: 445px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #col2{
     display: flex;
@@ -407,7 +420,7 @@ aside {
 }
 #col2 a {
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #col2 a h3 {
     height: 35px;
@@ -416,7 +429,7 @@ aside {
     height: 445px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #col4 {
     display: flex;
@@ -426,7 +439,7 @@ aside {
 }
 #col4 a {
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
 }
 #col4 a h3 {
     height: 35px;
@@ -435,21 +448,97 @@ aside {
 /* FOOTER */
 
 footer {
-    margin-top: 60px;
     height: 218px;
-    width: 100% !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
     background-color: #F2F2F2;
+    padding-right: 20px;
 }
 #footer {
-    width: 1137px;
+    width: 1237px;
     height: 125px;
+    margin-left: -85px;
     display: flex;
     justify-content: space-between;
-    float: left;
 }
 #footer div h4 {
     margin-top: 49px;
 }
 #footer div p {
     margin-top: 19px;
+}
+
+/* TAILLE TABLETTE */
+
+@media screen and (max-width: 1024px) 
+{
+    /* GENERAL */
+    body {
+        width: 900px;
+    }
+    /* HEADER */
+    .filtres {
+        width: 850px;
+        margin-left: 15px;
+    }
+    /* MAIN */
+
+    #big1 {
+        display: flex;
+        flex-direction: column;
+    }
+    aside {
+        width: 880px;
+        height: 330px;
+        margin-left: -12px;
+        margin-top: 30px;
+    }
+    #heberge-M h2 {
+        text-align: center;
+    }
+    #title_side {
+        margin-left: 270px;
+    }
+    #elements-side {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #elements-side a {
+        width: 280px;
+        height: 200px;
+    }
+    #elements-side a div img {
+        width: 137px;
+        height: 190px;
+    }
+    .under-side-img {
+        margin-left: -15px;
+    }
+    /* MAIN PART 2 */
+    #big2 {
+        margin-top: 300px;
+    }
+    #big2 h2{
+        text-align: center;
+        margin-right: 40px;
+    }
+    #separate {
+        height: 445px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 1000px;
+        margin-bottom: -30px;
+    }
+    /* FOOTER */
+    #footer {
+        width: 1024px;
+        margin-left: 10px;
+    }
 }
