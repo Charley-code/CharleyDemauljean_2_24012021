@@ -150,6 +150,7 @@ nav a:nth-child(3) {
 #transition1:hover {
     transform: scale(1.1) rotate(5deg);
     background-color: #DEEBFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
 }
 #transition2{
     transition: transform .5s;
@@ -158,6 +159,7 @@ nav a:nth-child(3) {
 #transition2:hover {
     transform: scale(1.1) rotate(5deg);
     background-color: #DEEBFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
 }
 #transition3{
     transition: transform .5s;
@@ -166,6 +168,7 @@ nav a:nth-child(3) {
 #transition3:hover {
     transform: scale(1.1) rotate(5deg);
     background-color: #DEEBFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
 }
 #transition4{
     transition: transform .5s;
@@ -174,6 +177,7 @@ nav a:nth-child(3) {
 #transition4:hover {
     transform: scale(1.1) rotate(5deg);
     background-color: #DEEBFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);
 }
 .filtres a i {
     color: #0065FC;
@@ -472,7 +476,7 @@ footer {
 
 /* TAILLE TABLETTE */
 
-@media screen and (max-width: 1024px) 
+@media all and (max-width: 1024px) 
 {
     /* GENERAL */
     body {
@@ -541,4 +545,18 @@ footer {
         width: 1024px;
         margin-left: 10px;
     }
+}
+
+/* TAILLE SMARTPHONE */
+
+@media all and (max-device-width: 480px)
+{
+    /* GENERAL */
+    body {
+        width: 100%;
+        padding: 0px 21px 0px 20px;
+    }
+    /* HEADER */
+
+
 }
