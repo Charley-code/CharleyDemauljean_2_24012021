@@ -10,6 +10,7 @@ body {
     font-weight: 300;
     padding: 0px 20px 0px 30px;
     width: 1340px;
+    margin: 0 auto 0 auto;
 }
 body h2 {
     font-size: 1.5em;
@@ -582,7 +583,12 @@ footer {
     #deplacer-filtre {
         width: 100%;
     }
-
+    #sign {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        margin-right: -120px;
+    }
     .filtres {
         display: flex;
         justify-content: space-between;
@@ -603,9 +609,32 @@ footer {
     }
     .activite2 {
         display: block;
+        text-decoration: none;
+        color: black;
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 13px;
+        transition: 1s;
+    }
+    .activite2:hover {
+        border-bottom: 3px solid #0065FC;
     }
     .heberge2 {
         display: block;
+        text-decoration: none;
+        color: black;
+        border-bottom: 3px solid #F2F2F2;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 13px;
+        transition: 1s;
+    }
+    .heberge2:hover {
+        border-bottom: 3px solid #0065FC;
+    }
+    #flex-nav {
+        display: flex;
     }
 
 }
