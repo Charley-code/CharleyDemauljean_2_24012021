@@ -553,10 +553,29 @@ footer {
 {
     /* GENERAL */
     body {
-        width: 100%;
+        width: 480px;
         padding: 0px 21px 0px 20px;
+        border: 1px solid green;
     }
     /* HEADER */
-
+    #nav {
+        width: 100%;
+    }
+    #header-P2 {
+        width: 100%;
+    }
+    #deplacer-filtre {
+        width: 100%;
+    }
+    .filtres {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        border: 1px solid red;
+        width: 350px;
+        height: 300px;
+    }
 
 }
