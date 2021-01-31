@@ -11,7 +11,6 @@ body {
   font-weight: 300;
   width: 95vw;
   margin: 0 auto 0 auto;
-  border: 1px solid red;
 }
 body h2 {
   font-size: 1.5em;
@@ -345,7 +344,7 @@ aside {
 }
 #elements-side a {
   width: 100%;
-  height: 144px;
+  height: 150px;
   background-color: white;
   text-decoration: none;
   display: flex;
@@ -355,7 +354,7 @@ aside {
 }
 #elements-side a div img {
   width: 127px;
-  height: 134px;
+  height: 140px;
   object-fit: cover;
   border-radius: 15px 0px 0px 15px;
   padding: 3px 0px 0px 5px;
@@ -365,34 +364,40 @@ aside {
   color: black;
   display: flex;
   flex-direction: column;
+  margin-left: -15px;
 }
 .under-side-img h3 {
   padding-bottom: 5px;
 }
 .under-side-img p {
   margin-left: 0px;
+  margin-bottom: -10px;
 }
 .under-side-img div {
-  padding-top: 30px;
+  padding-top: 20px;
   margin-left: 0px;
 }
 
 /* SECTION PART 2 */
-
+#big2 {
+  margin-top: 50px;
+}
 #big2 h2 {
-  padding-top: 90px;
-  padding-left: 5px;
+  margin-bottom: 20px;
 }
 #separate {
   height: 445px;
-  width: 1385px;
+  width: 95vw;
   display: flex;
   justify-content: space-between;
-  margin: 20px -20px 30px -20px;
+  align-items: center;
 }
 #separate a {
   text-decoration: none;
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #separate a img {
   border-radius: 15px 15px 0px 0px;
@@ -404,49 +409,59 @@ aside {
 }
 #child1 img {
   height: 390px;
-  width: 302px;
+  width: 21.5vw;
+  margin-top: -10px;
   object-fit: cover;
+  min-width: 260px;
 }
 #child2 img {
   height: 181px;
-  width: 302px;
+  width: 21.5vw;
   object-fit: cover;
+  min-width: 260px;
 }
 #child3 img {
   height: 109px;
-  width: 302px;
+  width: 21.5vw;
   object-fit: cover;
+  min-width: 260px;
 }
 #child4 img {
   height: 390px;
-  width: 302px;
+  width: 21.5vw;
   object-fit: cover;
+  min-width: 260px;
 }
 #child5 img {
   height: 140px;
-  width: 302px;
+  width: 21.5vw;
   object-fit: cover;
+  min-width: 260px;
 }
 #child6 img {
   height: 153px;
-  width: 302px;
+  width: 21.5vw;
   object-fit: cover;
+  min-width: 260px;
 }
 #child1 {
   height: 445px;
-  width: 302px;
+  width: 21.5vw;
 }
 #col1 {
   height: 445px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
+  min-width: 260px;
 }
 #col2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 445px;
+  min-width: 260px;
 }
 #col2 a {
   border-radius: 15px 15px 15px 15px;
@@ -460,12 +475,20 @@ aside {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 21.5vw;
+  min-width: 260px;
 }
 #col4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 445px;
+  width: 21.5vw;
+  min-width: 260px;
 }
 #col4 a {
   border-radius: 15px 15px 15px 15px;
@@ -479,19 +502,21 @@ aside {
 
 footer {
   height: 218px;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   left: 0;
   right: 0;
   background-color: #f2f2f2;
   padding-right: 20px;
+  margin-top: 60px;
 }
 #footer {
-  width: 1237px;
-  height: 125px;
-  margin-left: -85px;
+  width: 90vw;
+  height: 100%;
+  margin-left: 33px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #footer div h4 {
   margin-top: 49px;
@@ -502,62 +527,69 @@ footer {
 
 /* TAILLE TABLETTE */
 
-/*@media all and (max-width: 1024px) {
-  /* GENERAL */
-/*body {
-    width: 900px;
-  }
-
-  /* HEADER */
-/*.filtres {
-    width: 850px;
-    margin-left: 15px;
-  }
-
+@media all and (max-width: 1024px) {
   /* MAIN */
-/*#big1 {
+  #big1 {
     display: flex;
     flex-direction: column;
   }
+  #heberge-M {
+    width: 95vw;
+    height: 1300px;
+  }
+  #main-hotel {
+    width: 95vw;
+  }
+  #main-hotel a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4px;
+    height: 130px;
+    width: 40vw;
+  }
+  #main-hotel a img {
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 0px;
+    height: 122px;
+  }
 
+  /* SIDE */
   aside {
-    width: 880px;
+    width: 95vw;
     height: 330px;
-    margin-left: -12px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
-  #heberge-M h2 {
-    text-align: center;
-  }
-
   #title_side {
-    margin-left: 270px;
+    min-width: 250px;
   }
-
   #elements-side {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: 0px;
     width: 100%;
   }
 
   #elements-side a {
-    width: 280px;
+    width: 30vw;
     height: 200px;
   }
 
   #elements-side a div img {
-    width: 137px;
+    width: 13vw;
     height: 190px;
   }
   .under-side-img {
     margin-left: -15px;
   }
   /* MAIN PART 2 */
-/*#big2 {
-    margin-top: 300px;
+  #big2 {
+    margin-top: 400px;
   }
   #big2 h2 {
     text-align: center;
@@ -573,7 +605,7 @@ footer {
     margin-bottom: -30px;
   }
   /* FOOTER */
-/*#footer {
+  #footer {
     width: 1024px;
     margin-left: 10px;
   }
