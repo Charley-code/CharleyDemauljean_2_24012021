@@ -128,11 +128,12 @@ nav a:nth-child(3) {
   padding-left: 17px;
 }
 .filtres {
-  height: 50px;
+  height: ;
   margin-top: 30px;
   margin-left: 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 950px;
 }
 #filt {
@@ -241,6 +242,7 @@ nav a:nth-child(3) {
 }
 #heberge-M {
   width: 62vw;
+  min-width: 685px;
   height: 625px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
@@ -261,6 +263,7 @@ nav a:nth-child(3) {
 }
 #main-hotel {
   width: 60vw;
+  min-width: 670px;
   height: 490px;
   display: flex;
   flex-wrap: wrap;
@@ -271,6 +274,7 @@ nav a:nth-child(3) {
 #main-hotel a {
   height: 200px;
   width: 18vw;
+  min-width: 220px;
   background-color: white;
   border: 1px solid White;
   border-radius: 15px;
@@ -283,15 +287,15 @@ nav a:nth-child(3) {
 #main-hotel a img {
   height: 114px;
   width: 16.8vw;
+  min-width: 210px;
   object-fit: cover;
   margin-top: 5px;
   border: none;
   border-radius: 15px 15px 0px 0px;
 }
 .under-img {
-  height: 80px;
-  min-width: 220px;
-  width: 16.8vw;
+  height: 100px;
+  width: 100%;
 }
 .under-img h3 {
   margin-top: 5px;
@@ -528,6 +532,13 @@ footer {
 /* TAILLE TABLETTE */
 
 @media all and (max-width: 1024px) {
+  /* HEADER */
+  #filt {
+    margin-top: 35px;
+  }
+  .filtres a {
+    margin-top: 15px;
+  }
   /* MAIN */
   #big1 {
     display: flex;
@@ -536,9 +547,11 @@ footer {
   #heberge-M {
     width: 95vw;
     height: 1300px;
+    min-width: 0px;
   }
   #main-hotel {
     width: 95vw;
+    min-width: 0px;
   }
   #main-hotel a {
     display: flex;
@@ -552,6 +565,8 @@ footer {
     border-radius: 15px 0px 0px 15px;
     margin-top: 0px;
     height: 122px;
+    width: 90%;
+    min-width: 0px;
   }
 
   /* SIDE */
@@ -590,6 +605,9 @@ footer {
   /* MAIN PART 2 */
   #big2 {
     margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #big2 h2 {
     text-align: center;
@@ -597,7 +615,8 @@ footer {
   }
   #separate {
     height: 445px;
-    width: 100%;
+    width: 70vw;
+    min-width: 550px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -606,7 +625,6 @@ footer {
   }
   /* FOOTER */
   #footer {
-    width: 1024px;
     margin-left: 10px;
   }
 }
@@ -615,16 +633,16 @@ footer {
 @media all and (max-device-width: 480px) {
   /* GENERAL */
   body {
-    width: 480px;
+    width: 100vw;
     padding: 0px 21px 0px 20px;
     border: 1px solid green;
   }
 
   /* HEADER */
-  #nav {
-    width: 100%;
-  }
 
+  #flex-nav {
+    width: 100vw;
+  }
   #header-P2 {
     width: 100%;
   }
