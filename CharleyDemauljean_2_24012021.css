@@ -748,6 +748,7 @@ footer {
   /* GENERAL */
   body {
     width: 95vw;
+    margin-right: 0px;
   }
 
   /* HEADER */
