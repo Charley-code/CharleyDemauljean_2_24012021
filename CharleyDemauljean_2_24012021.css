@@ -897,7 +897,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: 610px;
-    width: 640px;
+    width: 100vw;
     border-radius: unset;
   }
 
