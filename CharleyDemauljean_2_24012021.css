@@ -747,8 +747,11 @@ footer {
 @media all and (max-width: 640px) {
   /* GENERAL */
   body {
-    width: 95vw;
+    width: 100vw;
     margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+    border: 1px red solid;
   }
 
   /* HEADER */
@@ -757,7 +760,10 @@ footer {
     right: 0px;
   }
   #flex-nav {
-    width: 100vw;
+    width: 105vw;
+    position: absolute;
+    right: -10px;
+    left: -10px;
     display: flex;
   }
 
@@ -959,6 +965,7 @@ footer {
     height: 134px;
     width: 90vw;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child2 img {
@@ -966,6 +973,7 @@ footer {
     width: 90vw;
     margin-top: -10px;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child3 img {
@@ -973,6 +981,7 @@ footer {
     width: 90vw;
     margin-top: -10px;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child4 img {
@@ -980,6 +989,7 @@ footer {
     width: 90vw;
     margin-top: -10px;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child5 img {
@@ -987,6 +997,7 @@ footer {
     width: 90vw;
     margin-top: -10px;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child6 img {
@@ -994,6 +1005,7 @@ footer {
     width: 90vw;
     margin-top: -10px;
     object-fit: cover;
+    min-width: 0px;
   }
 
   #child1 {
@@ -1030,6 +1042,7 @@ footer {
   }
   #col1 {
     height: 190px;
+    min-width: 0px;
   }
   #col2 {
     display: none;
@@ -1059,6 +1072,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 90vw;
+    min-width: 0px;
   }
 
   #col4 {
