@@ -843,8 +843,8 @@ footer {
     height: 50px;
     background-color: #0065fc;
     border-radius: 15px;
-    position: absolute;
-    left: 270px;
+    position: relative;
+    left: -25px;
   }
 
   #button-R2 a i {
@@ -853,6 +853,7 @@ footer {
 
   .champ-R {
     border-right: none;
+    width: 65vw;
   }
 
   /* SECTION PART 1 */
