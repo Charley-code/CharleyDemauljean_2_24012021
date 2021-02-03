@@ -751,7 +751,6 @@ footer {
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 10px;
-    border: 1px red solid;
   }
 
   /* HEADER */
@@ -788,7 +787,8 @@ footer {
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0px;
-    width: 85vw;
+    width: 100vw;
+    max-width: 350px;
     margin-left: 0px;
     margin-top: 5px;
   }
@@ -872,6 +872,7 @@ footer {
     justify-content: center;
     align-items: center;
     border: unset;
+    margin: 0px;
   }
 
   #heberge-M > a {
@@ -933,6 +934,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: -10px;
   }
   #separate {
     min-width: 0px;
