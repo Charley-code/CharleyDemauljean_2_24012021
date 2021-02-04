@@ -27,6 +27,10 @@ body h4 {
 }
 
 /* HEADER */
+svg {
+  margin-top: 20px;
+}
+
 #nav {
   margin-top: 20px;
 }
@@ -480,7 +484,7 @@ aside {
   padding-left: 20px;
 }
 
-#child1 img {
+.child1 img {
   height: 390px;
   width: 21.5vw;
   margin-top: -10px;
@@ -488,42 +492,42 @@ aside {
   min-width: 260px;
 }
 
-#child2 img {
+.child2 img {
   height: 181px;
   width: 21.5vw;
   object-fit: cover;
   min-width: 260px;
 }
 
-#child3 img {
+.child3 img {
   height: 109px;
   width: 21.5vw;
   object-fit: cover;
   min-width: 260px;
 }
 
-#child4 img {
+.child4 img {
   height: 390px;
   width: 21.5vw;
   object-fit: cover;
   min-width: 260px;
 }
 
-#child5 img {
+.child5 img {
   height: 140px;
   width: 21.5vw;
   object-fit: cover;
   min-width: 260px;
 }
 
-#child6 img {
+.child6 img {
   height: 153px;
   width: 21.5vw;
   object-fit: cover;
   min-width: 260px;
 }
 
-#child1 {
+.child1 {
   height: 445px;
   width: 21.5vw;
 }
@@ -775,7 +779,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
   #filt {
     margin-top: 0px;
   }
@@ -964,22 +967,14 @@ footer {
     padding-left: 20px;
   }
 
-  #child1 img {
+  .child1 img {
     height: 134px;
     width: 90vw;
     object-fit: cover;
     min-width: 0px;
   }
 
-  #child2 img {
-    height: 134px;
-    width: 90vw;
-    margin-top: -10px;
-    object-fit: cover;
-    min-width: 0px;
-  }
-
-  #child3 img {
+  .child2 img {
     height: 134px;
     width: 90vw;
     margin-top: -10px;
@@ -987,7 +982,7 @@ footer {
     min-width: 0px;
   }
 
-  #child4 img {
+  .child3 img {
     height: 134px;
     width: 90vw;
     margin-top: -10px;
@@ -995,7 +990,7 @@ footer {
     min-width: 0px;
   }
 
-  #child5 img {
+  .child4 img {
     height: 134px;
     width: 90vw;
     margin-top: -10px;
@@ -1003,7 +998,7 @@ footer {
     min-width: 0px;
   }
 
-  #child6 img {
+  .child5 img {
     height: 134px;
     width: 90vw;
     margin-top: -10px;
@@ -1011,7 +1006,15 @@ footer {
     min-width: 0px;
   }
 
-  #child1 {
+  .child6 img {
+    height: 134px;
+    width: 90vw;
+    margin-top: -10px;
+    object-fit: cover;
+    min-width: 0px;
+  }
+
+  .child1 {
     height: 190px;
     width: 90vw;
     background-color: white;
@@ -1019,27 +1022,27 @@ footer {
     box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.233);
   }
 
-  #child2 {
+  .child2 {
     height: 190px;
     width: 90vw;
   }
 
-  #child3 {
+  .child3 {
     height: 190px;
     width: 90vw;
   }
 
-  #child4 {
+  .child4 {
     height: 190px;
     width: 90vw;
   }
 
-  #child5 {
+  .child5 {
     height: 190px;
     width: 90vw;
   }
 
-  #child6 {
+  .child6 {
     height: 190px;
     width: 90vw;
   }
