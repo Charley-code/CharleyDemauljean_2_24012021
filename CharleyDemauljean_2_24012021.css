@@ -763,15 +763,16 @@ footer {
     right: 0px;
   }
   #flex-nav {
-    width: 105vw;
-    position: absolute;
-    right: -10px;
-    left: -10px;
+    width: 100vw;
     display: flex;
+    border-top: none;
+    position: absolute;
+    left: 0px;
+    right: 0px;
   }
 
-  #header-P2 {
-    width: 100vw;
+  #headerP2 {
+    margin-top: 70px;
   }
 
   #deplacer-filtre {
@@ -817,6 +818,7 @@ footer {
 
   .activite2:hover {
     border-bottom: 3px solid #0065fc;
+    border-top: none;
   }
 
   .heberge2 {
@@ -832,6 +834,7 @@ footer {
 
   .heberge2:hover {
     border-bottom: 3px solid #0065fc;
+    border-top: none;
   }
 
   #button-R {
@@ -857,6 +860,7 @@ footer {
   .champ-R {
     border-right: none;
     width: 65vw;
+    max-width: 300px;
   }
 
   /* SECTION PART 1 */
